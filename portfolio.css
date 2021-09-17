@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #562D67 ;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+nav .container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+nav {
+    margin: auto;
+    display: flex;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    padding-top: 35px;
+    padding-right: 150px;
+
+}
+
+nav li {
+    font-size: 30px ;
+    font-family: 'Bebas Neue';
+    list-style: none;
+    display: flex;
+    padding-left:100px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.Logo {
+    margin-top: 20px;
+    margin-left: 24px;
+    max-width: 80px;
+    position: absolute;
+    left : 24px;
+}
+
+.graphisme {
+    height: 800px;
+    background-color: rgb(228, 42,105,20%);
+}
+
+.montagevideo {
+    height: 800px;
+    background-color: rgb(228,172,157,20%);
+}
+
+.webdesign {
+    height: 800px;
+    background-color: rgb(76,175,234,20%);
+}
+
+.animation {
+    height: 800px;
+    background-color: rgb(255,231,139,20%);
+}
+
+.identite {
+    height: 800px;
+    background-color: rgb(86,45,103,20%);
+}
+
+.nompage1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(228, 42,105,100%);
+    -webkit-text-stroke: 1px #726767;
+}
+
+.nompage2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(228,172,157,100%);
+    -webkit-text-stroke: 1px #726767;
+}
+
+.nompage3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(76,175,234,100%);
+    -webkit-text-stroke: 1px #726767;
+}
+
+.nompage4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255,231,139,100%);
+    -webkit-text-stroke: 1px #726767;
+}
+
+.nompage5 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(86,45,103,100%);
+    -webkit-text-stroke: 1px #726767;
+}
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.accueil {
+    font-size: 12px;
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logodown {
+    width: 20%;
+    display: flex;
+    align-content: center;
+padding: 20px;
+}
+
+.arrow {
+    display: flex;
+    padding-left:20px;
+}
+
+.reseaux {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 120px;
+}
+
+.inst {
+    width: 30px;
+}
+
+.in {
+    padding-left: 20px;
+    width: 25px;
+}
+
+.copy {
+    color: #562D67;
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.copyright {
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .Logo {
+        margin-left: 0;
+        width: 60px;
+        height: 50px;
+    }
+
+    li a {
+        font-size: 20px ;
+    }
+
+    nav li {       
+      padding-left: 40px;
+    }
+
+    nav ul {
+        padding-right: 0px;
+    }
+
+    .curri {
+        padding-left: 90px;
+    }
+
+    .graphisme {
+        width: 100%;
+        height: 800px;
+        background-color: rgb(228, 42,105,20%);
+    }
+
+ 
+    .accueil h1 {
+        display: none;
+    }
+
+    .logodown {
+        width: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 0px;
+
+    }
+
+    .arrow {
+        padding-left: 20px;
+        padding-right: 20px;
+        transform: rotate(90deg);
+    }
+
+    .bouton {
+        justify-content: center;
+        width: 30%;
+    }
+
+    .reseaux {
+        padding-right:10px;
+    }
+    .inst {
+        width: 55%;
+        padding-left: 30px;
+    }
+
+    .in {
+        width: 55%;
+        padding-left: 20px; 
+    }
+
+    .copy h1 {
+        display: flex;
+        font-size: 15px;
+
+    }
+
+    .copy {
+        width: 190px;
+        padding-right: 0px;
+    }
+
+    .copyright {
+        width: 12%;
+        padding-left: 40px;
+        padding-right: 5px;
+    }
+
+}
+
+
+
+
+
