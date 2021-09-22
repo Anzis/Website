@@ -98,14 +98,10 @@ nav a {
     height: 80%;
 }
 
-.nom {
-
-}
-
 .curriculum {
     width: 100%;
     height: 100%;
-    background-image: url(/nuagedown.png);
+    background-image: url(nuagedown.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: 50% 25%;
@@ -126,6 +122,8 @@ nav a {
     font-size: 40px;
     padding-top: 40px;
 }
+
+
 
 .Cercle1 {
     padding: 20px;
@@ -545,7 +543,7 @@ nav a {
     align-items: center;
     font-family: 'Satisfy', cursive;
     font-size: 30px;
-    padding-top: 65px;
+    padding-top: 25px;
 
 }
 
@@ -733,7 +731,7 @@ h1.port {
 .Contact {
     width: 100%;
     height: 100%;
-    background-image: url(/nuageup.png);
+    background-image: url(nuageup.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: 50% 25%;
@@ -883,12 +881,12 @@ padding: 20px;
 @media screen and (max-width: 1200px) {
       .Logo {
           margin-left: 0;
-          width: 60px;
-          height: 50px;
+          width: 50px;
+          height: 40px;
       }
 
       li a {
-          font-size: 20px ;
+          font-size: 15px ;
 
       }
 
@@ -969,6 +967,26 @@ padding: 20px;
         padding-bottom: 20px;
       }
 
+      .CercleR {
+        transform: scale(0.8);
+        }
+
+        .Cercle3 {
+            padding: 15px;
+        }
+
+        .cercledroite {
+            margin-right: 10px;
+        }
+
+        .textecercle {
+            font-size: 18px;
+        }
+
+        .pourcentage {
+            font-size: 20px;
+
+        }
 
       .nomcercle1 {
           padding-top: 10px;
@@ -1045,29 +1063,22 @@ padding: 20px;
         padding-top:0px;
       }
 
-      .hobbies {
-          width: 180%;
-      }
+
 
       .textehob {
           padding-top: 30px;
+          width: 90%;
       }
 
       .textehob h1 {
         font-size: 35px;
       }
 
-      .premierhob img {
-          width: 20%;
-      }
 
       .secondhob {
           padding-bottom: 100px;
       }
-      .secondhob img {
-          width: 20%;
-      }
-
+ 
 
       #portfolio .portfolio {
           flex-direction: row;
@@ -1082,55 +1093,64 @@ padding: 20px;
 
       .formerond1{
           order: 0;
-        width: 160px;
-        height: 160px;
+        width: 140px;
+        height: 140px;
 
       }
 
       .nombulle1 {
           padding-top: 10px;
+          font-size: 25px;
       }
+
+      .nombulle2 {
+
+        font-size: 25px;
+    }
 
       .nombulle4 {
           text-align: center;
+          font-size: 25px;
       }
 
 
       .formerond2 {
         order: 1;
-        width: 160px;
-        height: 160px;
+        width: 140px;
+        height: 140px;
       }
 
       .nombulle3 {
         padding-top: 10px;
+        font-size: 25px;
     }
 
     .formerond3 {
         margin-top: 0px;
         order: 3;
-        width: 160px;
-        height: 160px;
+        width: 140px;
+        height: 140px;
     }
 
     .nombulle5 {
         padding-top: 10px;
         text-align: center;
+        font-size: 25px;
     }
     
 
     .formerectangle1 {
         margin-top: 0;
         order: 4;
-        width: 160px;
-        height:300px;
+        width: 130px;
+        height:200px;
 
     }
 
     .formerectangle2 {
         order: 5;
-        width: 160px;
-        height: 300px;
+        width: 130px;
+        height: 200px;
     }
 
     .containerport:nth-child(1) {
@@ -1169,7 +1189,6 @@ padding: 20px;
     }
 
     .Barre {
-        margin: auto;
         color: #32002B;
         width: 90%;
     }
@@ -1178,7 +1197,7 @@ padding: 20px;
         display: flex;
         justify-content: center;
         padding-left: 30px;
-        width: 100%;
+        width: 90%;
     }
 
     .pp {
@@ -1253,7 +1272,7 @@ padding: 20px;
 
     .copy h1 {
         display: flex;
-        font-size: 15px;
+        font-size: 13px;
 
     }
 
