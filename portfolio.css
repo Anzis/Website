@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: #562D67 ;
+     ;
 }
 
 
@@ -30,6 +30,7 @@ nav ul {
 }
 
 nav li {
+    
     font-size: 30px ;
     font-family: 'Bebas Neue';
     list-style: none;
@@ -39,6 +40,7 @@ nav li {
 
 nav a {
     text-decoration: none;
+    color: #562D67;
 }
 
 .Logo {
@@ -123,7 +125,6 @@ nav a {
     color: rgb(86,45,103,100%);
     -webkit-text-stroke: 1px #726767;
 }
-
 
 
 
@@ -213,6 +214,26 @@ padding: 20px;
         background-color: rgb(228, 42,105,20%);
     }
 
+    .nompage1 {
+        font-size: 25px;
+    }
+
+    .nompage2 {
+        font-size: 25px;
+    }
+
+    .nompage3 {
+        font-size: 25px;
+    }
+
+    .nompage4 {
+        font-size: 25px;
+    }
+
+    .nompage5 {
+        font-size: 25px;
+    }
+
  
     .accueil h1 {
         display: none;
@@ -252,7 +273,7 @@ padding: 20px;
 
     .copy h1 {
         display: flex;
-        font-size: 15px;
+        font-size: 13px;
 
     }
 
