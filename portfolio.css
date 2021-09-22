@@ -184,26 +184,28 @@ padding: 20px;
 
 @media screen and (max-width: 1200px) {
     .Logo {
-        margin-left: 0;
         width: 50px;
         height: 40px;
+        left: 0px;
     }
 
     li a {
-        font-size: 20px ;
+      font-size: 20px ;
+
     }
 
     nav li {       
-      padding-left: 40px;
+      padding-left: 30px;
     }
 
     nav ul {
         padding-right: 0px;
     }
 
-    .curri {
-        padding-left: 90px;
+    .container {
+        padding-left: 55px;
     }
+
 
     .graphisme {
         width: 100%;
